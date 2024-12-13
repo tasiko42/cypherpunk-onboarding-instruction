@@ -1,0 +1,23 @@
+#steps on github (latter)
+
+mkdir -p ~/.config/git/
+touch ~/.config/git/config
+mkdir <dotfiles>
+cd <dotfiles>
+git init
+Initialized empty Git repository in /home/username/dotfiles/.git/
+
+cd ~/.config/git/
+cp -v ~/.config/git/config config/git/config
+'/home/taso/.config/git/config' -> 'config/git/config'
+
+rm config
+ln -sv ../../dotfiles/config/git/config config
+'config' -> '../../dotfiles/config/git/config'
+cd ../..
+ls .config/git/config
+.config/git/config
+
+ls -l .config/git/config
+lrwxrwxrwx 1 uset user 32 Dec 13 13:57 .config/git/config -> ../../dotfiles/config/git/config
+
