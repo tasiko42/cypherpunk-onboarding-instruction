@@ -9,7 +9,7 @@ Initialized empty Git repository in /home/username/dotfiles/.git/
 
 cd ~/.config/git/
 cp -v ~/.config/git/config config/git/config
-'/home/taso/.config/git/config' -> 'config/git/config'
+'/home/user/.config/git/config' -> 'config/git/config'
 
 rm config
 ln -sv ../../dotfiles/config/git/config config
